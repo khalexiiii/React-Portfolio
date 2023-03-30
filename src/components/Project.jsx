@@ -12,20 +12,20 @@ const Project = () => {
       <img className="divider-line" src={dividerline} alt="" />
       <h1>Projects</h1>
       <img className="divider-line invert" src={dividerline} alt="" />
-      <grid-carousel class="product_carousel">
+      <grid-carousel className="product_carousel">
             <div id="formList">
                <div id="list">
                  <div className="item">
                    <div className="card" id="card">
-                      <img src= {charm} class="card-img-top" alt="" />
+                      <img src= {charm} className="card-img-top" alt="" />
                       <div className="card-header">Charm Residences</div>
                       <div className="card-body">
                         <h5>Location: Cainta, Rizal</h5> 
                       </div>
-                      <div class="card-footer justify-content-end">
+                      <div className="card-footer justify-content-end">
                         <button
                           href="#"
-                          class="btn btn-secondary"
+                          className="btn btn-secondary"
                           data-bs-toggle="modal"
                           data-bs-target="#book1"
                       >
@@ -34,17 +34,17 @@ const Project = () => {
                       </div>
                   </div>    
                </div>
-               <div class="item">
-                   <div class="card" id="card">
+               <div className="item">
+                   <div className="card" id="card">
                       <img src={vine} class="card-img-top" alt="" />
-                      <div class="card-header">Vine Residences</div>
-                      <div class="card-body">
+                      <div className="card-header">Vine Residences</div>
+                      <div className="card-body">
                         <h5>Location: Novaliches, Quezon City</h5>   
                       </div>
-                      <div class="card-footer justify-content-end">
+                      <div className="card-footer justify-content-end">
                         <button
                           href="#"
-                          class="btn btn-secondary"
+                          className="btn btn-secondary"
                           data-bs-toggle="modal"
                           data-bs-target="#book1"
                       >
@@ -53,17 +53,17 @@ const Project = () => {
                       </div>
                   </div>    
                </div>
-               <div class="item">
-                   <div class="card" id="card">
+               <div className="item">
+                   <div className="card" id="card">
                       <img src={hill} class="card-img-top" alt="" />
-                      <div class="card-header">Hill Residences</div>
-                      <div class="card-body">
-                        <h5>Location: Novaliches, Quezon City</h5> 
+                      <div className="card-header">Hill Residences</div>
+                      <div className="card-body">
+                        <h5>Location: Novaliches, Quezon City</h5>   
                       </div>
-                      <div class="card-footer justify-content-end">
+                      <div className="card-footer justify-content-end">
                         <button
                           href="#"
-                          class="btn btn-secondary"
+                          className="btn btn-secondary"
                           data-bs-toggle="modal"
                           data-bs-target="#book1"
                       >
@@ -72,17 +72,17 @@ const Project = () => {
                       </div>
                   </div>    
                </div>
-               <div class="item">
-                   <div class="card" id="card">
-                      <img src={bloom} class="card-img-top" alt="" />
-                      <div class="card-header">Bloom Residences</div>
-                      <div class="card-body">
+               <div className="item">
+                   <div className="card" id="card">
+                      <img src={bloom} className="card-img-top" alt="" />
+                      <div className="card-header">Bloom Residences</div>
+                      <div className="card-body">
                         <h5>Location: Sucat, Parañaque</h5>  
                       </div>
-                      <div class="card-footer justify-content-end">
+                      <div className="card-footer justify-content-end">
                         <button
                           href="#"
-                          class="btn btn-secondary"
+                          className="btn btn-secondary"
                           data-bs-toggle="modal"
                           data-bs-target="#book1"
                       >

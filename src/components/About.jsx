@@ -1,6 +1,7 @@
 import picture from "../assets/picture.png"
 import divider from "../assets/divider-paper.png"
 import dividerline from "../assets/divider.png"
+
 const About = () => {
   return (
     <section className="about">
@@ -11,10 +12,7 @@ const About = () => {
       <div className="navigation-wrapper">
         <img src={picture} alt="" />
         <div className="about-text">
-          <h3>What about me?</h3>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic id, omnis voluptatibus illo eius harum earum praesentium odio expedita sint!</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum repellendus est nulla accusantium modi doloribus inventore magni quia ex suscipit, nisi distinctio eius animi fugit deserunt, nesciunt voluptatibus! Praesentium, ut.</p>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique consequatur velit aperiam deleniti aliquid qui!</p>
+          <p>Hi, I'm Alexandrite M. Llarenas, 29 years old. I graduated at Pangasinan State University Urdaneta with a degree of Bachelor of Science in Civil Engineering. Professionally licensed with a 3+ year working experince in building and construction industry. Experienced in cost planning and control. Skilled in monitoring and supervising residential projects. I'm into online games like Genshin Impact, Call of Duty and Mobile Legends. I also like reading and collecting books.</p>
         </div>
       </div>
     </section>
